@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>API Endpoints</title>
+{% endblock head %}
+
+{% block body %}
+    <h1>API Endpoints</h1>
+    <p><strong>NOTE:</strong> this is a basic description of the endpoints. It does not list required parameters or specific information about the returned data.</p>
+    <table>
+        <tr>
+            <td>Method</td>
+            <td>URL</td>
+            <td>Description</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/api/students/all">/api/students/all</a></td>
+            <td>Will return a json object with student information.</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td><a href="/api/students">/api/students</a></td>
+            <td>Will add a student to the database.</td>
+        </tr>
+    </table>
+{% endblock body %}

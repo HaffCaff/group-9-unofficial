@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a.navbar-item {
+    display: inline-block;
+    height: 25px;
+    margin: 2px;
+    background-color: #559ac7;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+div.test {
+    display: block;
+    border: 1px solid black;
+    min-width: 300px;
+    min-height: 200px;
+    max-width: 400px;
+    margin: 50px 15px;
+}
+
+div.tests-container {
+    display: inline-flex;
+}
+
+div.radios {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    background-color: black;
+}
+
+td {
+    padding: 5px;
+    background-color: white;
+}

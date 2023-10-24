@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %}
+        
+    {% endblock head %}
+</head>
+<body>
+    <a class="navbar-item" href="/">Home</a>
+    <a class="navbar-item" href="/testing">Testing</a>
+    <a class="navbar-item" href="/endpoints">API</a>
+    <a class="navbar-item" href="/about_us">About Us</a>
+    <a class="navbar-item" href="/contact">Contact Us</a>
+    {% block body %}
+        
+    {% endblock body %}
+</body>
+</html>
