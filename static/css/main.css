@@ -27,6 +27,10 @@ div.tests-container {
     display: inline-flex;
 }
 
+div.tests-container2 {
+    display: inline-flex;
+}
+
 div.radios {
     text-align: center;
 }
